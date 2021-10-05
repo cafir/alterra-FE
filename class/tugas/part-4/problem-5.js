@@ -42,6 +42,5 @@ for (let i = 0; i < arr1.length - 1; i++) {
 }
 
 console.log(arr1[arr1.length - 1] - arr1[0])
-console.log(arr)
 console.log(arr.reduce((a, b) => (a + b)))
 

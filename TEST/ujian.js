@@ -4,7 +4,7 @@ function closedPaths(number) {
     let stringNum = number.toString();
     let stringLength = stringNum.length;
     for (let i = 0; i < stringLength; i++) {
-        if (stringNum[i] === 8) {
+        if (stringNum[i] === '8') {
             closePath += 2;
         } else if (stringNum[i] <= 3 && stringNum[i] > 0) {
             closePath += 0;
@@ -14,7 +14,7 @@ function closedPaths(number) {
     }
     return closePath;
 }
-
+//================================================================
 function minimizeBias(ratings) {
     // Write your code here
     let arrayOutput = [];
@@ -31,10 +31,34 @@ function minimizeBias(ratings) {
     return numberOutput;
     
 }
+//================================================================
 
-
-
-i = ['tea', 'toe'];
-var word = i[1];
-var wordIndex = word.split("").sort().length;
- console.log(wordIndex)
+ function getMinimumDifference(a, b) {
+    // Write your code here
+    let arrayOutput = [];
+    for (let i = 0; i < a.length; i++) {
+        let stringA = a[i];
+        let sortedStringA = stringA.split('').sort().join();
+        
+        let stringB = b[i];
+        let sortedStringB = stringB.split('').sort().join();
+        
+        for (let j = 0; j < sortedStringA.length; j++) {
+            let numA = sortedStringA[j].charCodeAt()
+            let numB = sortedStringB[j].charCodeAt()
+            if (sortedStringA.length > sortedStringB.length || sortedStringB.length > sortedStringA.length) {
+                arrayOutput.push(-1);
+            } else if (numA < numB) {
+                arrayOutput.push(numB - numA);
+            } else if (numB < numA){
+                arrayOutput.push(numA - numB);
+            } else if (numA === numB) {
+                arrayOutput.push(0)
+            } else {
+                break;
+            }
+            
+        }
+    }
+    return arrayOutput;
+}

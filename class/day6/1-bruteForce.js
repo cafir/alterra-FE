@@ -1,3 +1,5 @@
+
+//linear search
 function linearSearch(arr, key) {
     let len = arr.length
     let flag = 0;

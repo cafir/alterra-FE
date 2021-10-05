@@ -48,6 +48,6 @@ points.sort(function (a, b) {
 
 console.log(points)
 
-let arraySorted = numbers.sort(function(a, b){return b -a});\
+let arraySorted = numbers.sort(function(a, b){return b -a});
 
 console.log(arraySorted)

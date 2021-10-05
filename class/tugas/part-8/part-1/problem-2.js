@@ -28,7 +28,7 @@ function buyApparel(money, objItem, callback) {
     // your code here
     console.log(`saya membawa uang sebesar Rp. ${money}`)
     console.log(`saya ingin membeli ${objItem.item}`)
-    console.log(`dengan harga ${objItem.price}`)
+    console.log(`dengan harga Rp. ${objItem.price}`)
     console.log('\n')
         
     setTimeout(() => {

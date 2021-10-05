@@ -3,12 +3,6 @@ function MaximumBuyProduct(money, productPrice) {
     
     productPrice.sort(function(a, b) {return a - b})
     
-        /*while (money > productPrice[0]) {
-            output.push(productPrice[0])
-            productPrice.unshift(productPrice[0]);
-            money -= productPrice[0] 
-        }*/
-    
     for (let i in productPrice) {
         while (money >= productPrice[i]) {
             output.push(productPrice[i])

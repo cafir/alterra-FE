@@ -10,7 +10,9 @@ function JoinArrayRemoveDuplicate(arrayA, arrayB) {
             arrayJoin.push(arrayB[i]);
         }
     }
-    console.log(arrayJoin);
+    return arrayJoin;
 }
 
-JoinArrayRemoveDuplicate(['apple', 'orange', 'apple'], ['apple','orange','grape','melon']);
+console.log(JoinArrayRemoveDuplicate(['apple', 'anggur'], ['lemon','leci','nanas']));
+console.log(JoinArrayRemoveDuplicate(['samsung' ,'apple'], ['apple','sony','xioami']));
+console.log(JoinArrayRemoveDuplicate(['football' ,'basketball'], ['basketball', 'football']));

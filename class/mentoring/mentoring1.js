@@ -9,6 +9,13 @@ function countDown(number) {
     if (num > 0) {
         countDown(num);
     }
+    /*
+    for (i =)
+     */
 }
 
 countDown(10);
+
+//react -> state dan pros const
+
+//searching

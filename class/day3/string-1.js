@@ -108,7 +108,7 @@ console.log(iceCream.ingredient)
 
 //forEach
 iceCream.location.forEach((e) => {
-    console.log(iceCream.location.e)
+    console.log(iceCream.locatio)
 })
 
 //object

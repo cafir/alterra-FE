@@ -31,7 +31,7 @@ function binarySearch (arr, num) {
         }
 
     } 
-    return -1;
+    return arr;
 
 }
 let arr = [1, 17, 78, 4, 9, 19];

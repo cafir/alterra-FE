@@ -30,3 +30,6 @@ async function asyncPromise() {
         console.log('loading selesai');
     }
 }
+
+asyncPromise();
+return;

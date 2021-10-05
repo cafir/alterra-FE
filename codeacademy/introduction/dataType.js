@@ -22,3 +22,15 @@ console.log(false);//akan mengeluarkan false
 
 //4. Null: Tipe data ini mewakili ketidakhadiran nilai yang disengaja, dan diwakili oleh kata kunci null (tanpa tanda kutip).
 console.log(null)//akan mengeluarkan nilai null
+
+/*
+5. Undefined: Tipe data ini dilambangkan dengan kata kunci undefined (tanpa tanda kutip). 
+Ini juga mewakili tidak adanya nilai meskipun memiliki kegunaan yang berbeda dari nol.
+*/
+
+/*
+6. Simbol: Fitur yang lebih baru untuk bahasa, simbol adalah pengidentifikasi unik, berguna dalam pengkodean yang lebih kompleks. 
+Tidak perlu khawatir tentang ini untuk saat ini.
+*/
+
+//7. Obyek: Kumpulan data terkait.

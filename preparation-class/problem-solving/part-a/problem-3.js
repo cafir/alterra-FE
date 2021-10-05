@@ -1,8 +1,8 @@
-let number = 6;
+let number = 6; //input
 
-for (i = 1; i <= number; i++) {
-    if (number % i === 0) {
-        console.log(i)
+for (i = 1; i <= number; i++) { //1 - 6
+    if (number % i === 0) { // 6 % i === 0 
+        console.log(i) //output
     }
 }
 

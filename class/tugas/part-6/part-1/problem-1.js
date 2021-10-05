@@ -1,19 +1,3 @@
-function prime(number) {
-    array = [];
-    for (i = 1; i <= number * number; i++) {
-        if (i === 2 || i === 3 || i === 5 || i === 7) {
-            array.push(i)
-        } else if (i > 25) {
-            if (i % 5 !== 0 && i % (5 + 2) !== 0 && i % 3 !== 0 && i % + 2 !== 0) {
-                array.push(i);
-            }
-        } 
-    }
-    return array[number - 1]
-}
-
-console.log(prime(2))
-
 function checkerPrime(num) {
 
     if (num === 0 || num === 1) {

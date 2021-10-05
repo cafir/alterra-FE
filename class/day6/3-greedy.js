@@ -28,3 +28,5 @@ let bills = {
 }
 
 console.log(findingChange(bills, test));
+//metode lain huffman, activity selection, djikas
+//maps, mencari direction dari a ke b

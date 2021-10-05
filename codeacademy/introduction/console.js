@@ -5,4 +5,5 @@ Satu tindakan, atau metode, yang dibangun ke dalam objek konsol adalah metode .l
 apa yang kita masukkan ke dalam tanda kurung akan dicetak, atau dicatat, ke konsol.
 */
 
-console.log(5); //This example logs 5 to the console.
+console.log(5); //This example logs 5 to the console if u run node console.js in the terminal
+
